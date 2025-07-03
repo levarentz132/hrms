@@ -29,6 +29,11 @@ const __ = inject("$translate")
 const quickLinks = [
 	{
 		icon: markRaw(AttendanceIcon),
+		title: __("Request check-in check-out outside office"),
+		route: "/mobile-checkin",
+	},
+	{
+		icon: markRaw(AttendanceIcon),
 		title: __("Request Attendance"),
 		route: "AttendanceRequestFormView",
 	},
